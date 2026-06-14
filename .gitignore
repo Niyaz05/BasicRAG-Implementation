@@ -1,0 +1,49 @@
+# ── Environment & secrets ──────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── FAISS index files (regenerated on each run) ─────────────────
+faiss_index/
+*.index
+*.faiss
+
+# ── HuggingFace / sentence-transformers model cache ─────────────
+.cache/
+models/
+*.bin
+*.safetensors
+
+# ── Jupyter notebooks ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS files ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs & temp ──────────────────────────────────────────────────
+*.log
+*.tmp
